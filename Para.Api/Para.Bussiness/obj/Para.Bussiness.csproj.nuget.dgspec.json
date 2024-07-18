@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {}
+    "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {}
   },
   "projects": {
-    "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {
+    "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
+        "projectUniqueName": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
         "projectName": "Para.Bussiness",
-        "projectPath": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
+        "projectPath": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
         "packagesPath": "/Users/ksensazli/.nuget/packages/",
-        "outputPath": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Bussiness/obj/",
+        "outputPath": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Bussiness/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ksensazli/.nuget/NuGet/NuGet.Config"

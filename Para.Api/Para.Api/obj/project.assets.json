@@ -8376,11 +8376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Api/Para.Api.csproj",
+      "projectUniqueName": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Api/Para.Api.csproj",
       "projectName": "Para.Api",
-      "projectPath": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Api/Para.Api.csproj",
+      "projectPath": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Api/Para.Api.csproj",
       "packagesPath": "/Users/ksensazli/.nuget/packages/",
-      "outputPath": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Api/obj/",
+      "outputPath": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ksensazli/.nuget/NuGet/NuGet.Config"
@@ -8395,11 +8395,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Base/Para.Base.csproj": {
-              "projectPath": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Base/Para.Base.csproj"
+            "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Base/Para.Base.csproj": {
+              "projectPath": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Base/Para.Base.csproj"
             },
-            "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Data/Para.Data.csproj": {
-              "projectPath": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Data/Para.Data.csproj"
+            "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Data/Para.Data.csproj": {
+              "projectPath": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Data/Para.Data.csproj"
             }
           }
         }

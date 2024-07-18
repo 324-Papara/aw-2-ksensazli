@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z4DQQJykMQ4=",
+  "dgSpecHash": "oahLGGq6J2k=",
   "success": true,
-  "projectFilePath": "/Users/ksensazli/Papara324-Bootcamp/pk-ppr/Para.Api/Para.Api/Para.Api.csproj",
+  "projectFilePath": "/Users/ksensazli/VS Code Projects/aw-2-ksensazli/Para.Api/Para.Api/Para.Api.csproj",
   "expectedPackageFiles": [
     "/Users/ksensazli/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/ksensazli/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
