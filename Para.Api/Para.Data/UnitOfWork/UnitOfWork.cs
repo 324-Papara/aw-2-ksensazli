@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using Para.Data.Context;
 using Para.Data.Domain;
 using Para.Data.GenericRepository;
@@ -44,6 +45,42 @@ public class UnitOfWork : IUnitOfWork, IDisposable
                 Console.WriteLine(ex);
                 throw;
             }
+        }
+    }
+    
+    public IQueryable<TEntity> Include<TEntity>(params Expression<Func<TEntity, object>>[] includes) where TEntity : class
+    {
+        var repository = GetRepository<TEntity>();
+        return repository.Include(includes);
+    }
+    
+    public async Task<List<TEntity>> Where<TEntity>(Expression<Func<TEntity, bool>> predicate) where TEntity : class
+    {
+        var repository = GetRepository<TEntity>();
+        return await repository.Where(predicate);
+    }
+    
+    private IGenericRepository<TEntity> GetRepository<TEntity>() where TEntity : class
+    {
+        if (typeof(TEntity) == typeof(Customer))
+        {
+            return (IGenericRepository<TEntity>)CustomerRepository;
+        }
+        else if (typeof(TEntity) == typeof(CustomerDetail))
+        {
+            return (IGenericRepository<TEntity>)CustomerDetailRepository;
+        }
+        else if (typeof(TEntity) == typeof(CustomerAddress))
+        {
+            return (IGenericRepository<TEntity>)CustomerAddressRepository;
+        }
+        else if (typeof(TEntity) == typeof(CustomerPhone))
+        {
+            return (IGenericRepository<TEntity>)CustomerPhoneRepository;
+        }
+        else
+        {
+            throw new ArgumentException("Repository not found for the specified entity type.");
         }
     }
 }
